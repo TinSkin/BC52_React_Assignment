@@ -1,11 +1,9 @@
 import React, { useState } from "react";
-import ShoesStore from "./ShoesStore";
 
-export default function () {
+export default function Body() {
     return (
         <div>
             <h1 className="text-center">Shoes store</h1>
-            <ShoesStore />
         </div>
     )
 }
